@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="120sp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@color/laranjaClaro"
+                android:src="@drawable/cooltext1648555146" />
+
+            <Button
+                android:id="@+id/btNovoTitulo"
+                android:layout_width="120sp"
+                android:layout_height="120sp"
+                android:layout_below="@+id/imageView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/formato_botaoprocess"
+                android:text="@string/novo"
+                android:textColor="@color/branco" />
+
+            <TextView
+                android:id="@+id/tvMostraCodigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text=""
+                android:textColor="@color/branco" />
+
+            <Button
+                android:id="@+id/btSee"
+                android:layout_width="120sp"
+                android:layout_height="120sp"
+                android:layout_alignTop="@+id/btNovoTitulo"
+                android:layout_below="@+id/btNovoTitulo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="150sp"
+                android:background="@drawable/formato_circle"
+                android:text="@string/visualizarSenhas"
+                android:textColor="@color/branco" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

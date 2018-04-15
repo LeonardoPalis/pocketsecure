@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/fundo">
+
+   <ScrollView
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentTop="true" >
+
+       <RelativeLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content" >
+
+           <ImageView
+      		  android:id="@+id/imageView1"
+       		  android:layout_width="200sp"
+        	  android:layout_height="wrap_content"
+        	  android:layout_centerHorizontal="true"
+        	  android:layout_marginBottom="22dp"
+        	  android:src="@drawable/cooltext1648555146" />
+           
+           <TextView
+               android:id="@+id/tvUser"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_centerVertical="true"
+               android:layout_marginTop="450sp"
+               android:layout_marginLeft="30dp"
+               android:text="@string/user"
+               android:textSize="20sp" />
+
+           <TextView
+               android:id="@+id/tvSenha"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignLeft="@+id/tvUser"
+               android:layout_marginTop="250sp"
+               android:layout_below="@+id/etUsuario"
+               
+               android:text="@string/senha"
+               android:textSize="20sp" />
+
+           <EditText
+               android:id="@+id/etSenha"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignBottom="@+id/tvSenha"
+               android:layout_alignLeft="@+id/etUsuario"
+               android:layout_marginRight="15dp"
+               android:ems="8"
+               android:inputType="textPassword" />
+
+              
+
+           <Button
+               android:id="@+id/btEntrar"
+               android:layout_width="150sp"
+               android:layout_height="40sp"
+               android:layout_below="@+id/etSenha"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="37dp"
+               android:background="@color/azul"
+               android:clickable="true"
+               android:text="Entrar"
+               android:textColor="@color/branco" />
+
+           <EditText
+               android:id="@+id/etUsuario"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:layout_centerVertical="true"
+               android:layout_marginRight="20dp"
+               android:ems="8"
+               android:inputType="text" >
+                <requestFocus />
+           </EditText>
+
+       </RelativeLayout>
+   </ScrollView>
+
+</RelativeLayout>

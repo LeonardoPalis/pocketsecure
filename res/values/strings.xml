@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PasswordSecure</string>
+    <string name="user">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="primeiroLogin">Clique aqui caso seja seu primeiro login</string>
+
+    <color name="vermelhoEscuro">#8B0000</color>
+    <color name="azul">#6495ED</color>
+    <color name="branco">#FFFFFF</color>
+
+    <string name="apresentacao">Salve todas senhas em um unico lugar. Com apenas alguns cliques,
+	    						 você armazena e visualiza suas senhas
+	    						 de uma maneira fácil, rápida e segura! </string>
+
+    <color name="azulEscuro">#4169E1</color>
+    <color name="laranja">#FF8C00</color>
+
+    <string name="comece">Começar</string>
+
+    <color name="fundo">#FFFFE0</color>
+
+    <string name="comoCadastrar">Insira um usuário e uma senha para cadastrar. Lembre-se de
+	    						guarda-los para futuramente logar o aplicativo.</string>
+    <string name="cadastrar">Cadastrar</string>
+
+    <color name="laranjaClaro">#FFA500</color>
+
+    <string name="novo">Salvar uma senha</string>
+    <string name="salvar">Salvar</string>
+    <string name="modificar">Modificar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="titulo">Titulo</string>
+    <string name="comocadastrar">Crie um titulo e coloque a senha que deseja salvar no campo Senha</string>
+    <string name="deletar">Deletar</string>
+    <string name="sair">Sair</string>
+    <string name="comoModificar">Para modifificar um titulo ou uma senha, primeiro faça 
+	    				as alterações no campo adequado e clique em salvar.</string>
+
+    <color name="azulFundo">#1E90FF</color>
+    <color name="azulClaro">#00BFFF</color>
+
+    <string name="voltar">Voltar</string>
+    <string name="visualizarSenhas">Visualizar Senhas</string>
+
+    <color name="azulCircle">#B0C4DE</color>
+    <color name="vermelho">#FF0000</color>
+    <color name="preto">#000000</color>
+
+    <string name="selecione">Selecione uma opção</string>
+    <string name="title_activity_inicio">Inicio</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

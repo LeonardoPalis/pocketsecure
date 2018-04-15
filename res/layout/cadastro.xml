@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo" >
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+  <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="44dp"
+        android:textColor="@color/azulEscuro"
+        android:textSize="16sp"
+        android:text="@string/comoCadastrar" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="57dp"
+        android:text="@string/user"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/etCadastroUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:ems="8"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="28dp"
+        android:text="@string/senha"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/etCadastroSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/TextView02"
+        android:layout_toRightOf="@+id/textView2"
+        android:ems="8"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btCadastro"
+        android:layout_width="130sp"
+        android:layout_height="40sp"
+        android:layout_below="@+id/etCadastroSenha"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/formato_botao"
+        android:text="@string/cadastrar"
+        android:textColor="@color/branco" />
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

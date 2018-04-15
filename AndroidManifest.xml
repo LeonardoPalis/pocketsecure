@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.salvesenha"
+    android:versionCode="7"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconpass2"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.salvesenha.Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.salvesenha.PRINCIPAL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.salvesenha.login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.salvesenha.Cadastrar"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.salvesenha.CADASTRO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.salvesenha.Processamento"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.salvesenha.PROCESSO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.salvesenha.AdicionarTitulo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.salvesenha.ADDTITULO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.salvesenha.MostraLista"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.salvesenha.LISTA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.salvesenha.ModificaDados"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.salvesenha.MODIFICADADOS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.salvesenha.Inicio"
+            android:label="@string/title_activity_inicio" >
+        </activity>
+        <activity
+            android:name="com.salvesenha.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+    </application>
+
+</manifest>
